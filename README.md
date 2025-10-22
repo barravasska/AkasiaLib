@@ -64,7 +64,7 @@ src/main/kotlin/
     └── ReservationService.kt
 ```
 -----
-## 🚀 Cara Menjalankan Proyek
+##  Cara Menjalankan Proyek
 
 1.  Pastikan Anda memiliki **IntelliJ IDEA** dan **Kotlin JDK** terinstal.
 2.  *Clone* repositori ini ke mesin lokal Anda.
