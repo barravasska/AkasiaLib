@@ -1,8 +1,8 @@
-# 📚 Proyek AkasiaLib: Sistem Manajemen Perpustakaan (OOP Kotlin)
+# Proyek AkasiaLib: Sistem Manajemen Perpustakaan (OOP Kotlin)
 **AkasiaLib** adalah aplikasi Command-Line Interface (CLI) sederhana untuk manajemen perpustakaan. Proyek ini dibuat untuk memenuhi tugas mata kuliah Pemrograman Berorientasi Objek dan diimplementasikan sepenuhnya menggunakan bahasa **Kotlin** dengan paradigma **Object-Oriented Programming (OOP)**.
 Sistem ini dirancang dengan arsitektur berlapis (Model, Repository, Service) untuk memisahkan data, logika penyimpanan, dan logika bisnis. Aplikasi ini mengelola katalog buku (cetak, digital, & audio), keanggotaan, sirkulasi (peminjaman & pengembalian), sistem reservasi (antrian), dan pelaporan, dengan semua data disimpan sementara secara *in-memory*.
 -----
-## 👥 Kontributor Kelompok
+## Kontributor Kelompok
 
 Proyek ini dikerjakan secara berkelompok dengan pembagian tugas yang jelas:
 | Nama | NIM | Peran | Deskripsi Tugas |
@@ -12,7 +12,7 @@ Proyek ini dikerjakan secara berkelompok dengan pembagian tugas yang jelas:
 | **Ghifary Barra Vasska** | 224443032 | Anggota 3: Service & Logika Bisnis | Mengerjakan "otak" aplikasi di *service layer*. Mengimplementasikan `AuthService`, `CatalogService`, `CirculationService` (termasuk denda), `MemberService`, dan `ReservationService` (antrian). |
 | **Muhamad Ariyq Naufal Rafif** | 224443035 | Anggota 4: CLI & Laporan | Mengimplementasikan antarmuka pengguna (CLI) di `Main.kt`. Membuat menu, navigasi, dan menghubungkan input user ke fungsi di *service layer*. Menyajikan data laporan. |
 
-## ✨ Fitur Utama
+## Fitur Utama
 ### Fungsionalitas Wajib
   * **Manajemen Buku:** Tambah, hapus, cari, dan lihat semua buku.
   * **Manajemen Anggota:** Tambah, hapus, dan lihat anggota dengan 3 tier (REGULAR, PREMIUM, STAFF).
@@ -22,7 +22,7 @@ Proyek ini dikerjakan secara berkelompok dengan pembagian tugas yang jelas:
   * **Perhitungan Denda:** Menghitung denda keterlambatan untuk buku cetak.
   * **Pelaporan:** Menampilkan 4 laporan: Pinjaman aktif, Top 3 buku, Total denda, dan Antrian reservasi.
 
-### 🌟 Fitur Tambahan (Bonus)
+### Fitur Tambahan (Bonus)
 Proyek ini juga mengimplementasikan 5 (lima) tugas opsional:
 1.  **Login Sederhana:** Implementasi `AuthService` dengan dua *role*: `ADMIN` (bisa tambah data) dan `LIBRARIAN` (hanya operasional).
 2.  **Strategy Pattern:** Logika perhitungan denda dipisahkan dari `CirculationService` menggunakan *Strategy Pattern* (`DendaRegulerStrategy`, `DendaPremiumStrategy`, `DendaStaffStrategy`).
@@ -30,14 +30,14 @@ Proyek ini juga mengimplementasikan 5 (lima) tugas opsional:
 4.  **Autonumber ID:** ID untuk Buku (cth: `BK-0001`) dan Anggota (cth: `AG-0001`) dibuat secara otomatis oleh *service layer*.
 5.  **Ekspor CSV:** Fitur untuk mengekspor data laporan (pinjaman, anggota) ke file `.csv` di direktori proyek.
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
   * **Bahasa:** Kotlin
   * **Paradigma:** Object-Oriented Programming (OOP)
   * **Konsep OOP:** Abstraksi, Enkapsulasi, Inheritance, Polimorfisme.
   * **Arsitektur:** 3-Layer (Model, Repository, Service) + CLI
   * **Pola Desain:** Strategy Pattern, Dependency Injection (via constructor).
 
-## 📂 Struktur Proyek
+## Struktur Proyek
 Struktur folder proyek ini dirancang untuk memisahkan tanggung jawab (Separation of Concerns).
 ```
 src/main/kotlin/
