@@ -139,5 +139,4 @@ Total: Rp 0.0
 ```
 <<<<<<< HEAD
 ## OUTPUT
-![Output] (Menu_Utama.PNG)
-=======
+![Menu Utama Aplikasi](Gallery/Output/Menu_Utama.PNG)
