@@ -139,6 +139,6 @@ Total: Rp 0.0
 ```
 <<<<<<< HEAD
 ## OUTPUT
-![Output] (Gallery/Output/Menu&20Utama.PNG)
+![Output] (Gallery/Output/Menu_Utama.PNG)
 =======
 >>>>>>> 430ff384f2247ba60581cbf14ef73ff9ce52ed69
