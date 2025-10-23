@@ -14,6 +14,7 @@ Proyek ini dikerjakan secara berkelompok dengan pembagian tugas yang jelas:
 
 ## Fitur Utama
 ### Fungsionalitas Wajib
+<<<<<<< HEAD
 * **Manajemen Buku:** Tambah, hapus, cari, dan lihat semua buku.
 * **Manajemen Anggota:** Tambah, hapus, dan lihat anggota dengan 3 tier (REGULAR, PREMIUM, STAFF).
 * **Polimorfisme Buku:** Sistem dapat membedakan `BukuCetak` (punya stok) dan `BukuDigital` (tanpa stok) menggunakan *inheritance* dan *polimorfisme*.
@@ -21,6 +22,15 @@ Proyek ini dikerjakan secara berkelompok dengan pembagian tugas yang jelas:
 * **Reservasi:** Sistem antrian (`Queue`) otomatis jika stok buku cetak habis dan notifikasi saat buku tersedia.
 * **Perhitungan Denda:** Menghitung denda keterlambatan untuk buku cetak.
 * **Pelaporan:** Menampilkan 4 laporan: Pinjaman aktif, Top 3 buku, Total denda, dan Antrian reservasi.
+=======
+  * **Manajemen Buku:** Tambah, hapus, cari, dan lihat semua buku.
+  * **Manajemen Anggota:** Tambah, hapus, dan lihat anggota dengan 3 tier (REGULAR, PREMIUM, STAFF).
+  * **Polimorfisme Buku:** Sistem dapat membedakan `BukuCetak` (punya stok) dan `BukuDigital` (tanpa stok) menggunakan *inheritance* dan *polimorfisme*.
+  * **Sirkulasi:** Logika peminjaman (cek stok) dan pengembalian.
+  * **Reservasi:** Sistem antrian (`Queue`) otomatis jika stok buku cetak habis dan notifikasi saat buku tersedia.
+  * **Perhitungan Denda:** Menghitung denda keterlambatan untuk buku cetak.
+  * **Pelaporan:** Menampilkan 4 laporan: Pinjaman aktif, Top 3 buku, Total denda, dan Antrian reservasi.
+>>>>>>> 430ff384f2247ba60581cbf14ef73ff9ce52ed69
 
 ### Fitur Tambahan (Bonus)
 Proyek ini juga mengimplementasikan 5 (lima) tugas opsional:
@@ -31,11 +41,19 @@ Proyek ini juga mengimplementasikan 5 (lima) tugas opsional:
 5.  **Ekspor CSV:** Fitur untuk mengekspor data laporan (pinjaman, anggota) ke file `.csv` di direktori proyek.
 
 ## Teknologi yang Digunakan
+<<<<<<< HEAD
 * **Bahasa:** Kotlin
 * **Paradigma:** Object-Oriented Programming (OOP)
 * **Konsep OOP:** Abstraksi, Enkapsulasi, Inheritance, Polimorfisme.
 * **Arsitektur:** 3-Layer (Model, Repository, Service) + CLI
 * **Pola Desain:** Strategy Pattern, Dependency Injection (via constructor).
+=======
+  * **Bahasa:** Kotlin
+  * **Paradigma:** Object-Oriented Programming (OOP)
+  * **Konsep OOP:** Abstraksi, Enkapsulasi, Inheritance, Polimorfisme.
+  * **Arsitektur:** 3-Layer (Model, Repository, Service) + CLI
+  * **Pola Desain:** Strategy Pattern, Dependency Injection (via constructor).
+>>>>>>> 430ff384f2247ba60581cbf14ef73ff9ce52ed69
 
 ## Struktur Proyek
 Struktur folder proyek ini dirancang untuk memisahkan tanggung jawab (Separation of Concerns).
@@ -119,5 +137,8 @@ Total: Rp 0.0
 [Struktur Data]: Rudi
 ========================================
 ```
+<<<<<<< HEAD
 ## OUTPUT
 ![Output] (Gallery/Output/Menu Utama.PNG)
+=======
+>>>>>>> 430ff384f2247ba60581cbf14ef73ff9ce52ed69
